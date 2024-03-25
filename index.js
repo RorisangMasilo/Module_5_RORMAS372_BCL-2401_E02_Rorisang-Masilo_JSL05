@@ -19,10 +19,10 @@ const songs = [
   { title: "Come and Get Your Love", artist: "Redbone", genre: "Rock" },
   { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
   { title: "Payback", artist: "James Brown", genre: "Funk" },
-  { title: "Changes", artist: "Charles Barley", genre: "Soul" },
-  { title: "Let's stay together", artist: "Al Green", genre: "R&B" },
-  { title: "No Evil", artist: "Sir", genre: "R&B" },
-  { title: "Found in a song", artist: "Rum.Gold", genre: "R&B" },
+  { title: "Changes", artist: "Charles Bradley", genre: "Soul" },
+  { title: "Let's Stay Together", artist: "Al Green", genre: "Soul" },
+  { title: "No Evil", artist: "SiR", genre: "Soul" },
+  { title: "Found in a song", artist: "Rum.Gold", genre: "Soul" },
   {
     title: "Fooled Around and Fell in Love",
     artist: "Elvin Bishop",
@@ -30,11 +30,11 @@ const songs = [
   },
 
   {
-    title: "Do 4 Love",
-    artist: "Tupac",
+    title: "California Love",
+    artist: "2Pac",
     genre: "Hip-Hop",
   },
-  { title: "BlueSlides", artist: "SchoolBoy Q", genre: "Hip-Hop" },
+  { title: "BlueSlides", artist: "ScHoolboy Q", genre: "Hip-Hop" },
   { title: "Die Hard", artist: "Kendrick Lamar", genre: "Hip-Hop" },
   { title: "Show Me What You Got", artist: "Jay-Z", genre: "Hip-Hop" },
 
