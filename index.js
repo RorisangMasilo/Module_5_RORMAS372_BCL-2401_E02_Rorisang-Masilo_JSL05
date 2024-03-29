@@ -28,13 +28,13 @@ const songs = [
     artist: "Elvin Bishop",
     genre: "Rock",
   },
-
   {
     title: "California Love",
     artist: "2Pac",
     genre: "Hip-Hop",
   },
   { title: "BlueSlides", artist: "ScHoolboy Q", genre: "Hip-Hop" },
+  { title: "Mistake", artist: "Fela Kuti", genre: "Funk" },
   { title: "Die Hard", artist: "Kendrick Lamar", genre: "Hip-Hop" },
   { title: "Show Me What You Got", artist: "Jay-Z", genre: "Hip-Hop" },
 
@@ -46,9 +46,9 @@ const guardians = {
   "Star-Lord": "Rock",
   Gamora: "Pop",
   Drax: "R&B",
-  Rockets: "Soul",
+  Rocket: "Soul",
   Groot: "Hip-Hop",
-  Meredith: "Funk",
+  Mantis: "Funk",
 
   // Add preferences for Drax, Rocket, and Groot
 };
@@ -80,7 +80,7 @@ playlists.forEach((playlist) => {
 
   const songList = document.createElement("ul");
   playlist.songs.forEach((song) => {
-    const listItem = document.createElement("li");
+    const listItem = document.createElement("ul");
     listItem.textContent = `${song.title} - ${song.artist}`;
     songList.appendChild(listItem);
   });
